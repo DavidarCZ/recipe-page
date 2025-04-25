@@ -126,6 +126,7 @@ body {
 
 .recipe-preparation li::marker {
     font-size: 0.65em;
+    color: var(--brown800);
 }
 
 .recipe-preparation strong {
@@ -153,4 +154,5 @@ body {
 
 .recipe-ingredients ul li::marker {
     font-size: 0.65em;
+    color: var(--brown800);
 }
