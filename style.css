@@ -140,17 +140,17 @@ body {
     color: var(--brown800);
 }
 
-.recipe ul {
+.recipe-ingredients ul {
     margin-left: 25px;
     margin-bottom: 25px;
 }
 
-.recipe ul li {
+.recipe-ingredients ul li {
     padding-left: 15px;
     font-size: 14px;
     line-height: 2;
 }
 
-.recipe ul li::marker {
+.recipe-ingredients ul li::marker {
     font-size: 0.65em;
 }
