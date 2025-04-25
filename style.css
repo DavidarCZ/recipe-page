@@ -1,4 +1,4 @@
-  /* CSS Reset */
+/* CSS Reset */
   * {
     margin: 0;
     padding: 0;
@@ -60,4 +60,97 @@
     --fw-normal: 400;
     --fw-semi-bold: 600;
     --fw-bold: 700;
+}
+
+/*Styles*/
+
+.recipe p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    background-color: var(--stone100);
+}
+
+.recipe {
+    font-family: var(--ff-outfit);
+    color: var(--stone600);
+    background-color: var(--white);
+    max-width: 750px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.recipe-image {
+    max-width: 650px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    align-self: center;
+}
+
+.recipe h1 {
+    font-family: var(--ff-young-serif);
+    font-weight: var(--fw-normal);
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--stone900);
+}
+
+.recipe-preparation {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 2;
+    background-color: var(--rose50);
+}
+
+.recipe-preparation > ul {
+    margin: 0;
+    padding: 0;
+}
+
+.recipe-preparation h3 {
+    color: var(--rose800);
+}
+
+.recipe-preparation ul {
+    list-style: inside;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.recipe-preparation li::marker {
+    font-size: 0.65em;
+}
+
+.recipe-preparation strong {
+    padding-left: 15px;
+}
+
+.recipe h2 {
+    font-family: var(--ff-young-serif);
+    font-weight: var(--fw-normal);
+    font-size: 1.7rem;
+    margin: 20px 0;
+    color: var(--brown800);
+}
+
+.recipe ul {
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.recipe ul li {
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.recipe ul li::marker {
+    font-size: 0.65em;
 }
