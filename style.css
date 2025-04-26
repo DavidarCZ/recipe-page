@@ -163,3 +163,19 @@ body {
     font-size: 0.65em;
     color: var(--brown800);
 }
+
+.recipe-instructions ol {
+    margin-left: 25px;
+    margin-bottom: 25px;
+    line-height: 2;
+    font-size: 14px;
+}
+
+.recipe-instructions ol li {
+    padding-left: 15px;
+}
+
+.recipe-instructions ol li::marker {
+    color: var(--brown800);
+    font-weight: var(--fw-bold);
+}
