@@ -63,7 +63,7 @@
 }
 
 /*Styles*/
-
+/*Basic*/
 .recipe p {
     font-size: 16px;
     line-height: 1.5;
@@ -93,6 +93,14 @@ body {
     margin: 15px 10px 10px;
 }
 
+.recipe h2 {
+    font-family: var(--ff-young-serif);
+    font-weight: var(--fw-normal);
+    font-size: 1.7rem;
+    margin: 20px 0;
+    color: var(--brown800);
+}
+/*Header*/
 .recipe-header .recipe-image {
     max-width: 650px;
     border-radius: 10px;
@@ -108,6 +116,7 @@ body {
     color: var(--stone900);
 }
 
+/*Preparation*/
 .recipe-preparation {
     margin: 20px 0;
     padding: 20px;
@@ -140,14 +149,7 @@ body {
     padding-left: 15px;
 }
 
-.recipe h2 {
-    font-family: var(--ff-young-serif);
-    font-weight: var(--fw-normal);
-    font-size: 1.7rem;
-    margin: 20px 0;
-    color: var(--brown800);
-}
-
+/*Ingredients*/
 .recipe-ingredients ul {
     margin-left: 25px;
     margin-bottom: 25px;
@@ -164,6 +166,7 @@ body {
     color: var(--brown800);
 }
 
+/*Instructions*/
 .recipe-instructions ol {
     margin-left: 25px;
     margin-bottom: 25px;
@@ -180,6 +183,7 @@ body {
     font-weight: var(--fw-bold);
 }
 
+/*Nutrition*/
 .recipe-nutrition table {
     margin-top: 20px;
     width: 100%;
@@ -202,6 +206,7 @@ body {
     border-bottom: 1px solid var(--stone150);
 }
 
+/*Media queries*/
 @media (max-width: 600px) {
     .recipe {
         max-width: 100%;
