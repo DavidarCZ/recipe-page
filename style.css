@@ -93,14 +93,14 @@ body {
     margin: 15px 10px 10px;
 }
 
-.recipe-image {
+.recipe-header .recipe-image {
     max-width: 650px;
     border-radius: 10px;
     margin-bottom: 40px;
     align-self: center;
 }
 
-.recipe h1 {
+.recipe-header h1 {
     font-family: var(--ff-young-serif);
     font-weight: var(--fw-normal);
     font-size: 2rem;
@@ -200,4 +200,78 @@ body {
 
 .recipe-nutrition table tr:not(:last-child) * {
     border-bottom: 1px solid var(--stone150);
+}
+
+@media (max-width: 600px) {
+    .recipe {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .recipe-header .recipe-image {
+        text-align: center;
+        max-width: 100%;
+        border-radius: 0;
+    }
+
+    .recipe-header h1 {
+        font-size: 56px;
+        line-height: 1;
+        padding: 0 50px;
+    }
+
+    .recipe-header p{
+        padding: 0 50px;
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    .recipe-preparation {
+        padding: 0 80px;
+    }
+
+    .recipe-preparation h3 {
+        font-size: 28px;
+    }
+
+    .recipe-preparation ul {
+        font-size: 22px;
+    }
+
+    .recipe h2 {
+        padding: 0 50px;
+        font-size: 36px;
+    }
+
+    .recipe-ingredients ul li {
+        font-size: 20px;
+        margin: 0 50px;
+        padding: 0 30px;
+    }
+
+    .recipe-instructions ol li {
+        font-size: 20px;
+        margin: 0 50px;
+        padding: 0 30px;
+    }
+
+    .recipe-nutrition {
+        margin-bottom: 50px;
+    }
+
+    .recipe-nutrition p {
+        padding: 0 50px;
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    .recipe-nutrition table th {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .recipe-nutrition table td {
+        font-size: 22px;
+    }
 }
