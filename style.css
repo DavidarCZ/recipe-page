@@ -179,3 +179,25 @@ body {
     color: var(--brown800);
     font-weight: var(--fw-bold);
 }
+
+.recipe-nutrition table {
+    margin-top: 20px;
+    width: 100%;
+    text-align: left;
+}
+
+.recipe-nutrition table th {
+    font-weight: var(--fw-normal);
+    padding: 10px;
+    font-size: 15px;
+}
+
+.recipe-nutrition table td {
+    padding: 10px;
+    color: var(--brown800);
+    font-weight: var(--fw-semi-bold);
+}
+
+.recipe-nutrition table tr:not(:last-child) * {
+    border-bottom: 1px solid var(--stone150);
+}
