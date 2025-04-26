@@ -16,7 +16,7 @@
 ### Links
 
 - Solution URL: [GitHub Repo](https://github.com/DavidarCZ/recipe-page)
-- Live Site URL: [GitHub Pages](davidarcz.github.io/recipe-page/)
+- Live Site URL: [GitHub Pages](https://davidarcz.github.io/recipe-page/)
 
 ## My process
 
